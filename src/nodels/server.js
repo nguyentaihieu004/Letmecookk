@@ -2,16 +2,16 @@ const express = require('express');
 const mysql2 = require('mysql2');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-
+require('dotenv').config();
 const app = express(); // tạo express
 app.use(bodyParser.json()); // sử dụng để phân tích data json
 app.use(cors()); // sử dụng cors để truy cập từ nguồn dữ liệu khác nhau
 
 const db = mysql2.createConnection({
-    host: 'bbq4k8n05tn2djsslbhl-mysql.services.clever-cloud.com',
-    user: 'unvsljnhac1gdn5x',
-    password: '3dAjemsdo8vqltQUlrul',
-    database: 'bbq4k8n05tn2djsslbhl'
+    host: process.env.MYSQL_ADDON_HOST,
+    user: process.env.MYSQL_ADDON_USER,
+    password: process.env.MYSQL_ADDON_PASSWORD,
+    database: process.env.MYSQL_ADDON_DB
 });
 
 db.connect((err) => {
