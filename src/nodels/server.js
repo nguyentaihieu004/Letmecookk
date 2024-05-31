@@ -8,10 +8,10 @@ app.use(bodyParser.json()); // sử dụng để phân tích data json
 app.use(cors()); // sử dụng cors để truy cập từ nguồn dữ liệu khác nhau
 
 const db = mysql2.createConnection({
-    host: process.env.MYSQL_ADDON_HOST,
-    user: process.env.MYSQL_ADDON_USER,
-    password: process.env.MYSQL_ADDON_PASSWORD,
-    database: process.env.MYSQL_ADDON_DB
+    host: "bcnwonve9440dsjzln78-mysql.services.clever-cloud.com",
+    user: "u0fs2aeudfv7l8il",
+    password: "9BR9e3SW89j0iVelRcF0",
+    database: "bcnwonve9440dsjzln78"
 });
 
 db.connect((err) => {
