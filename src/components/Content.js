@@ -38,71 +38,70 @@ export default function Content() {
             <section class="wrapper">
                 <ul class="carousel">
                     <li class="food">
-                        <a href="#">
+                    <button onClick={() => { window.location.href = 'https://www.bing.com/search?q=google+&qs=n&form=QBRE&sp=-1&lq=0&pq=google+&sc=12-7&sk=&cvid=CA9087F6D65E4446822CF7727CB943AF&ghsh=0&ghacc=0&ghpl='; }}>
                             <div class="Image">
                                 <img 
                                     src="https://cdn.tgdd.vn/Files/2018/12/13/1137914/cach-nau-bo-kho-tai-nha-bang-goi-gia-vi-bo-kho-don-gian-ngon-dung-dieu-202107211101519924.jpg"
                                     alt="img" draggable="false" href=""/>
                             </div>
                             <div class="Title">Bò kho</div>
-                        </a>
+                            </button>
                     </li>
 
                     <li class="food">
-                        <a href="#">
+                    <button onClick={() => { window.location.href = 'https://www.bing.com/search?q=google+&qs=n&form=QBRE&sp=-1&lq=0&pq=google+&sc=12-7&sk=&cvid=CA9087F6D65E4446822CF7727CB943AF&ghsh=0&ghacc=0&ghpl='; }}>
                             <div class="Image">
                                 <img 
                                     src="https://pandafood.com.vn/wp-content/uploads/2019/08/tom-ram-man-1.jpg" alt="img"
                                     draggable="false" href=""/>
                             </div>
                             <div class="Title">Tôm Ram</div>
-                        </a>
+                            </button>
                     </li>
 
                     <li class="food">
-                        <a href="#">
+                    <button onClick={() => { window.location.href = 'https://www.bing.com/search?q=google+&qs=n&form=QBRE&sp=-1&lq=0&pq=google+&sc=12-7&sk=&cvid=CA9087F6D65E4446822CF7727CB943AF&ghsh=0&ghacc=0&ghpl='; }}>
                             <div class="Image">
                                 <img 
                                     src="https://img-global.cpcdn.com/recipes/376446af6ee515ff/1200x630cq70/photo.jpg"
                                     alt="img" draggable="false" href=""/>
                             </div>
                             <div class="Title">Apple Pie</div>
-                        </a>
+                        </button>
                     </li>
 
                     <li class="food">
-                        <a
-                            href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fvnexpress.net%2Fca-kho-mang-thom-ngon-nhu-nha-hang-4486717.html&psig=AOvVaw1GkCMc4ToINm5XVp634xA4&ust=1710297482508000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMDa--DY7YQDFQAAAAAdAAAAABAJ">
+                    <button onClick={() => { window.location.href = 'https://www.bing.com/search?q=google+&qs=n&form=QBRE&sp=-1&lq=0&pq=google+&sc=12-7&sk=&cvid=CA9087F6D65E4446822CF7727CB943AF&ghsh=0&ghacc=0&ghpl='; }}>
                             <div class="Image">
                                 <img 
                                     src="https://i-giadinh.vnecdn.net/2022/07/12/Thanh-pham-1-6512-1657601877.jpg" alt="img"
                                     draggable="false" />
                             </div>
                             <div class="Title">Cá kho tộ</div>
-                        </a>
+                        </button>
                     </li>
 
                     <li class="food">
-                        <a href="#">
+                    <button onClick={() => { window.location.href = 'https://www.bing.com/search?q=google+&qs=n&form=QBRE&sp=-1&lq=0&pq=google+&sc=12-7&sk=&cvid=CA9087F6D65E4446822CF7727CB943AF&ghsh=0&ghacc=0&ghpl='; }}>
                             <div class="Image">
                                 <img 
                                     src="https://cdn.tgdd.vn/Files/2019/01/07/1143169/cach-nau-thit-kho-tau-trung-cut-thom-ngon-thit-mem-dam-da-202401091518527882.jpg"
-                                    alt="img" draggable="false" />
+                                    alt="img" draggable="false" href=""/>
                             </div>
                             <div class="Title">Thịt Kho Tàu
                             </div>
-                        </a>
+                        </button>
                     </li>
 
                     <li class="food B">
-                        <a href="#">
+                    <button onClick={() => { window.location.href = 'https://www.bing.com/search?q=google+&qs=n&form=QBRE&sp=-1&lq=0&pq=google+&sc=12-7&sk=&cvid=CA9087F6D65E4446822CF7727CB943AF&ghsh=0&ghacc=0&ghpl='; }}>
                             <div class="Image">
                                 <img 
                                     src="https://www.vinmec.com/s3-images/20210317_143609_055773_sushi.max-800x800.jpg"
-                                    alt="img" draggable="false" />
+                                    alt="img" draggable="false" href=""/>
                             </div>
                             <div class="Title">Sushi</div>
-                        </a>
+                        </button>
                     </li>
 
                 </ul>
@@ -126,8 +125,8 @@ export default function Content() {
                                 Việt Nam.</p>
                         </div>
                         <div class="recipe">
-                            <img src={Banhtrangnuong} alt="Banh-Trang-Nuong" class="imgrecipe" />
-                            <h3 class="card-title-text"><a href="">Bánh tráng nướng</a></h3>
+                            <img src={Banhtrangnuong} alt="Banh-Trang-Nuong" class="imgrecipe" href="" />
+                            <h3 class="card-title-text"><label >Bánh tráng nướng</label></h3>
                             <p class="discribe">Bánh tráng nướng là một món ăn đường phố phổ biến và hấp dẫn của Việt Nam.
                                 Được làm từ một lớp bánh tráng mỏng như giấy, được thoa đều với một hỗn hợp gia vị đặc trưng
                                 và nướng trên lửa than nhanh chóng. Món bánh tráng nướng thường được chế biến với các loại
@@ -136,8 +135,8 @@ export default function Content() {
                                 thơm của gia vị và độ ngọt mặn của nhân.</p>
                         </div>
                         <div class="recipe">
-                            <img src={Banhmi} alt="Banh-Mi" class="imgrecipe" />
-                            <h3 class="card-title-text"><a href="">Bánh mì</a></h3>
+                            <img src={Banhmi} alt="Banh-Mi" class="imgrecipe" href=""/>
+                            <h3 class="card-title-text"><label >Bánh mì</label></h3>
                             <p class="discribe">Bánh mì là một món ăn đặc trưng và rất phổ biến của Việt Nam. Món này được
                                 làm từ một ổ bánh mì nóng hổi, với vỏ ngoài giòn tan và bên trong mềm mịn. Bánh mì Việt Nam
                                 thường được chế biến với nhiều loại nhân như thịt heo, gà, xúc xích, pate, trứng, rau sống,
