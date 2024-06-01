@@ -8,7 +8,7 @@ export default function Header() {
         <header>
             <div id="header">
                 <div id="top-left">
-                    <a href="" id="logo" >
+                    <a href="hellio" id="logo" >
                         <img src={Letmecook} style={{ height: '7vh' }} alt="Logo" />
                     </a>
                 </div>

@@ -2,9 +2,6 @@ import React from 'react'
 import '../css/Content.css'
 import imagecover from '../image/imagecover.jpeg'
 import intro from '../image/intro.jpeg'
-import Monchinh from '../image/MonChinh.png'
-import TrangMieng from '../image/TrangMieng.jpg'
-import AnVat from '../image/AnVat.jpg'
 import Pho from '../image/Pho.jpg'
 import Banhtrangnuong from '../image/Banh-Trang-Nuong.jpg'
 import Banhmi from '../image//Banh-Mi.jpg'
@@ -41,33 +38,33 @@ export default function Content() {
             <section class="wrapper">
                 <ul class="carousel">
                     <li class="food">
-                        <a href="">
+                        <a href="#">
                             <div class="Image">
                                 <img 
                                     src="https://cdn.tgdd.vn/Files/2018/12/13/1137914/cach-nau-bo-kho-tai-nha-bang-goi-gia-vi-bo-kho-don-gian-ngon-dung-dieu-202107211101519924.jpg"
-                                    alt="img" draggable="false" />
+                                    alt="img" draggable="false" href=""/>
                             </div>
                             <div class="Title">Bò kho</div>
                         </a>
                     </li>
 
                     <li class="food">
-                        <a href="">
+                        <a href="#">
                             <div class="Image">
                                 <img 
                                     src="https://pandafood.com.vn/wp-content/uploads/2019/08/tom-ram-man-1.jpg" alt="img"
-                                    draggable="false" />
+                                    draggable="false" href=""/>
                             </div>
                             <div class="Title">Tôm Ram</div>
                         </a>
                     </li>
 
                     <li class="food">
-                        <a href="">
+                        <a href="#">
                             <div class="Image">
                                 <img 
                                     src="https://img-global.cpcdn.com/recipes/376446af6ee515ff/1200x630cq70/photo.jpg"
-                                    alt="img" draggable="false" />
+                                    alt="img" draggable="false" href=""/>
                             </div>
                             <div class="Title">Apple Pie</div>
                         </a>
@@ -86,7 +83,7 @@ export default function Content() {
                     </li>
 
                     <li class="food">
-                        <a href="">
+                        <a href="#">
                             <div class="Image">
                                 <img 
                                     src="https://cdn.tgdd.vn/Files/2019/01/07/1143169/cach-nau-thit-kho-tau-trung-cut-thom-ngon-thit-mem-dam-da-202401091518527882.jpg"
@@ -98,7 +95,7 @@ export default function Content() {
                     </li>
 
                     <li class="food B">
-                        <a href="">
+                        <a href="#">
                             <div class="Image">
                                 <img 
                                     src="https://www.vinmec.com/s3-images/20210317_143609_055773_sushi.max-800x800.jpg"
