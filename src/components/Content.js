@@ -13,7 +13,7 @@ export default function Content() {
     return (
         <main>
             <section id="home">
-                <img id="imagecover" src={imagecover} />
+                <img id="imagecover" src={imagecover} alt=''/>
                 <div class="messager">
                     <div class="text">
                         <h1>Let me cook</h1>
@@ -23,7 +23,7 @@ export default function Content() {
             <section id="about">
                 <div class="about2">
                     <div id="imgabout">
-                        <img src={intro} style={{ height: '40vh', objectFit: 'contain' }} />
+                        <img src={intro} style={{ height: '40vh', objectFit: 'contain' }} alt=''/>
                     </div>
                     <div id="textabout">
                         <h2 class="title">GIỚI THIỆU</h2>
